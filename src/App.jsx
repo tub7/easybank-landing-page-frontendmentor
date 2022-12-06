@@ -9,15 +9,17 @@ import { useState } from 'react'
 import Modal from './comp/Modal'
 
 function App() {
-  const [active, setActive] = useState(true)
+  const [active, setActive] = useState(false)
   active ? document.querySelector("body").style.overflow = "hidden" : document.querySelector("body").style.overflow = "unset"
   return (
     
     <div className='relative bg-slate-50'>
       <Nav setActive={setActive} active={active} />
       {active && <Modal />}
+      <div className="lg:flex lg:">
       <Image />
       <Para />
+      </div>
       <WhySec />
       <Latest />
       <Footer />

@@ -33,7 +33,13 @@ export default function Latest() {
     },
   ]
   return (
-    <div className='h-full flex flex-col '>{value.map((el, ind) => <div className={ind === value.length - 1 ? 'w-10/12 rounded-lg mx-auto bg-white overflow-hidden my-3 mb-20' : 'w-10/12 rounded-lg mx-auto bg-white overflow-hidden my-3 ' } key={ind}>
+    <>
+    <h1 className='text-3xl mx-auto mb-5 text-center lg:text-left lg:ml-40'>
+      Latest Articles
+    </h1>
+    <div className='h-full flex flex-col lg:flex-row lg:mx-40 lg:gap-5 lg:mb-20'>
+      
+      {value.map((el, ind) => <div className={ind === value.length - 1 ? 'w-10/12 rounded-lg mx-auto bg-white overflow-hidden my-3 mb-20 lg:mb-3' : 'w-10/12 rounded-lg mx-auto bg-white overflow-hidden my-3 ' } key={ind}>
       <img src={el.img} alt="" className='h-48 w-full'/>
       <div className='h-48 px-7 pt-4'>
         <span className='opacity-50 text-left text-xs'>{"By " + el.by}</span>
@@ -42,5 +48,6 @@ export default function Latest() {
         <p className='opacity-60 text-left text-xs my-1 '>{el.decr}</p>
       </div>
     </div>)}</div>
+    </>
   )
 }
