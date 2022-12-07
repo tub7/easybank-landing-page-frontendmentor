@@ -32,7 +32,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="flex flex-col">
-        <button className="text-white text-lg bg-gradient-to-r from-green-500 to-blue-500 lg:w-11/12 w-1/2 mx-auto px-6 py-3 rounded-3xl mt-8 mb-4">
+        <button className="text-white text-lg bg-gradient-to-r from-green-500 to-blue-500 lg:w-11/12 w-1/2 mx-auto px-6 py-3 rounded-3xl mt-8 mb-4 hover:from-green-300 hover:to-blue-300">
           Request Invite
         </button>
         <p className="opacity-40 text-white mx-auto my-1">
