@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="139" height="20" xmlns="http://www.w3.org/2000/svg">
+  <g fill="none" fill-rule="evenodd" transform="matrix(2.382513, 0, 0, 0.761267, 0, 0)">
+    <g fill="url(#a)">
+      <path d="M10.802 0L0 19.704h5.986L16.789 0z" style="fill: rgb(0, 0, 0);"/>
+    </g>
+  </g>
+  <path d="M 65.736 0 L 40 15 L 54.263 15 L 80 0 L 65.736 0 Z" style="fill-opacity: 0.8;"/>
+  <path d="M 105.736 0 L 80 15 L 94.263 15 L 120 0 L 105.736 0 Z" style="opacity: 0.4;"/>
+</svg>
